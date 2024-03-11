@@ -11,7 +11,7 @@ import { catalogView } from './views/catalog.js';
 import { createView } from './views/create.js';
 import { detailsView } from './views/details.js';
 import { editView } from './views/edit.js';
-// import { deleteView } from './views/delete.js';
+import { deleteView } from './views/delete.js';
 // import { searchView } from './views/search.js';
 
 page(authMiddleware)
@@ -26,7 +26,7 @@ page('/catalog', catalogView);
 page('/create', createView);
 page('/details/:itemId', detailsView)
 page('/edit/:itemId', editView);
-// page('/delete/:itemId', deleteView);
+page('/delete/:itemId', deleteView);
 // page('/search', searchView)
 
 page.start()
