@@ -27,6 +27,5 @@ page('/create', createView);
 page('/details/:itemId', detailsView)
 page('/edit/:itemId', editView);
 page('/delete/:itemId', deleteView);
-// page('/search', searchView)
 
 page.start()
