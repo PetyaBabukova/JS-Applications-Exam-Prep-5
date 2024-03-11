@@ -1,6 +1,6 @@
 import * as request from './requester.js';
 
-const baseUrl = 'http://localhost:3030/data/cars';
+const baseUrl = 'http://localhost:3030/data/events';
 
 export const getAll = () => request.get(`${baseUrl}?sortBy=_createdOn%20desc`);
 

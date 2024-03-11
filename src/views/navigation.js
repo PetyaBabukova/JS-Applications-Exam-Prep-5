@@ -5,7 +5,7 @@ const navigationTemplate = (isLogged) => html`
 
 <nav>
     <div>
-        <a href="/home">Events</a>
+        <a href="/catalog">Events</a>
     </div>
     ${isLogged
         ? html`

@@ -12,7 +12,7 @@ ${items.length > 0
           ${items.map(item => itemTemplate(item, user))}
         </section>`
         : html`
-    <h2>No Fun Facts yet.</h2>
+    <h2>No Events yet.</h2>
     `}
 `;
     
