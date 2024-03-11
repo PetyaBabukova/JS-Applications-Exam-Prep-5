@@ -20,8 +20,8 @@ const detailsTemplate = (item, isOwner, isLogged) => html`
         ${isOwner
         ? html`
         <div id="action-buttons">
-            <a href="" id="edit-btn">Edit</a>
-            <a href="" id="delete-btn">Delete</a>
+            <a href="/edit/${item._id}" id="edit-btn">Edit</a>
+            <a href="/delete/${item._id}" id="delete-btn">Delete</a>
         </div>
             `
         : nothing}
